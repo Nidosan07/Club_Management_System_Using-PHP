@@ -5,5 +5,5 @@ Admin Account
 
 http://localhost/ncas/admin/
 
-username- shan  and  
+Username- shan       
 Password- nmohanaraj
