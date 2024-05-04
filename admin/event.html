@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Event Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <form
+        id="eventForm"
+        action="process.php"
+        method="POST"
+        onsubmit="return validateForm()"
+      >
+        <h2>Event Registration</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="attendees">Number of Attendees:</label>
+        <input type="number" id="attendees" name="attendees" min="1" required />
+
+        <label for="eventDate">Event Date:</label>
+        <input type="date" id="eventDate" name="eventDate" required />
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
