@@ -1,7 +1,7 @@
 # Club_Management_System_Using-PHP
 
 
-Admin Account
+Admin Account Credential   
 
 http://localhost/ncas/admin/
 
